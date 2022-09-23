@@ -4,7 +4,7 @@ def get_range ():
 	range_start = int (input ("Lower boundary:"))
 	range_end = int (input ("Upper boundary:"))
 	while (range_start >= range_end):
-		print ("Are you retarded or something?")
+		print ("range_start cannot be greater than range_end :)")
 		range_start = int (input ("Lower boundary:"))
 		range_end = int (input ("Upper boundary:"))
 	return (range_start, range_end)
